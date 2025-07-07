@@ -1,0 +1,58 @@
+.container {
+  max-width: 650px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: rgba(177, 145, 246, 0.9);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(219, 71, 219, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+  color: #c5c5c6;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #6d077b;
+}
+
+.input {
+  width: 96%;
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #cb80c5;
+  border-radius: 10px;
+  margin-bottom: 1.2rem;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #89007b;
+}
+
+.button {
+  padding: 0.75rem 1.8rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #96006b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.button:hover {
+  background-color: #790051;
+}
+
+.output {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #4d003f;
+  font-weight: 600;
+}
